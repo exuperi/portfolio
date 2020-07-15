@@ -6,3 +6,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
+::selection {
+  background-color: $secondary-color;
+  color: #fff;
+}
