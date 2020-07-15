@@ -24,6 +24,7 @@ module.exports = merge(common, {
 					collapseWhitespace: true,
 					removeComments: true,
 				},
+				favicon: "src/assets/favicon-32x32.png",
 			}),
 		],
 	},
@@ -31,7 +32,6 @@ module.exports = merge(common, {
 		new CleanWebpackPlugin(),
 		new MiniCssExtractPlugin({
 			filename: "[name].[contentHash].css",
-			favicon: "src/assets/favicon-32x32.png"
 		}),
 	],
 	module: {
